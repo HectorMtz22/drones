@@ -1,17 +1,17 @@
 {
   "files": {
-    "main.css": "/HectorMtz22/nute.git/static/css/main.877f7807.chunk.css",
-    "main.js": "/HectorMtz22/nute.git/static/js/main.69f3e1c5.chunk.js",
-    "main.js.map": "/HectorMtz22/nute.git/static/js/main.69f3e1c5.chunk.js.map",
-    "runtime-main.js": "/HectorMtz22/nute.git/static/js/runtime-main.4d32b68a.js",
-    "runtime-main.js.map": "/HectorMtz22/nute.git/static/js/runtime-main.4d32b68a.js.map",
-    "static/css/2.ff9ea1f9.chunk.css": "/HectorMtz22/nute.git/static/css/2.ff9ea1f9.chunk.css",
-    "static/js/2.8636269d.chunk.js": "/HectorMtz22/nute.git/static/js/2.8636269d.chunk.js",
-    "static/js/2.8636269d.chunk.js.map": "/HectorMtz22/nute.git/static/js/2.8636269d.chunk.js.map",
-    "index.html": "/HectorMtz22/nute.git/index.html",
-    "precache-manifest.449ac572ce564fdc7aa118d919e1d98e.js": "/HectorMtz22/nute.git/precache-manifest.449ac572ce564fdc7aa118d919e1d98e.js",
-    "service-worker.js": "/HectorMtz22/nute.git/service-worker.js",
-    "static/css/2.ff9ea1f9.chunk.css.map": "/HectorMtz22/nute.git/static/css/2.ff9ea1f9.chunk.css.map",
-    "static/css/main.877f7807.chunk.css.map": "/HectorMtz22/nute.git/static/css/main.877f7807.chunk.css.map"
+    "main.css": "/static/css/main.877f7807.chunk.css",
+    "main.js": "/static/js/main.1d4866aa.chunk.js",
+    "main.js.map": "/static/js/main.1d4866aa.chunk.js.map",
+    "runtime-main.js": "/static/js/runtime-main.a9e8376a.js",
+    "runtime-main.js.map": "/static/js/runtime-main.a9e8376a.js.map",
+    "static/css/2.ff9ea1f9.chunk.css": "/static/css/2.ff9ea1f9.chunk.css",
+    "static/js/2.8636269d.chunk.js": "/static/js/2.8636269d.chunk.js",
+    "static/js/2.8636269d.chunk.js.map": "/static/js/2.8636269d.chunk.js.map",
+    "index.html": "/index.html",
+    "precache-manifest.9f3af70421d7d7edd1198bb13cebc790.js": "/precache-manifest.9f3af70421d7d7edd1198bb13cebc790.js",
+    "service-worker.js": "/service-worker.js",
+    "static/css/2.ff9ea1f9.chunk.css.map": "/static/css/2.ff9ea1f9.chunk.css.map",
+    "static/css/main.877f7807.chunk.css.map": "/static/css/main.877f7807.chunk.css.map"
   }
 }
