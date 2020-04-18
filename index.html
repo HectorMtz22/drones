@@ -1,55 +1,89 @@
 <!DOCTYPE html>
-<html>
+<html lang="en">
+
 <head>
 	<meta charset="UTF-8">
+	<meta name="viewport" content="width=device-width, initial-scale=1.0">
 	<title>Drones</title>
-	<link rel=stylesheet href="Estilos/estilosindex.css" type="text/css" media=screen>
+	<link rel="stylesheet" href="css/style.css">
 </head>
+
 <body>
-<div class="container">
-	<div class="header">
-		<img src="Imagenes/GIFS/logo.gif" id="logo" class="logo">
-	</div>
-	<div class="sidebar1">
-		    <ul class="nav">
-		      <li><a href="Pagina 1.html"><font color="White">1. Significado</font></a></li>
-		      <li><a href="Pagina 2.html"><font color="White">2. Historia</font></a></li>
-			  <li><a href="Pagina 3.html"><font color="White">3. Ventajas y D.</font></a></li>
-		      <li><a href="Pagina 4.html"><font color="White">4. Preguntas al comprar</font></a></li>
-			  <li><a href="Pagina 5.html"><font color="White">5. Futuro de los drones</font></a></li>
-		    </ul></div>
-	<div class="content">
-		<h1>Índice de drones</h1>
-		<table id="customers">
-			<tr>
-				<th>Drones</th>
-				<th>Imagenes</th>
-			</tr>
-			<tr>
-				<td><a href="Pagina 1.html"><p>Significado de los drones, para que sirven, usos y aplicaciónes más comunes</p></a></td>
-				<td><a href="Pagina 1.html"><img src="Imagenes/Tabla/dron2.gif"></a></td>
-			</tr>
-			<tr>
-				<td><a href="Pagina 2.html"><p>Historia de los drones desde el siglo XIX hasta el 2016: evolución y surgimiento del drone moderno</p></a></td>
-				<td><a href="Pagina 2.html"><img src="Imagenes/Tabla/dron3.gif"></a></td>
-			</tr>
-			<tr>
-				<td><a href="Pagina 3.html"><p>Ventajas y desventajas de los drones</p></a></td>
-				<td><a href="Pagina 3.html"><img src="Imagenes/Tabla/dron1.gif"></a></td>
-			</tr>
-			<tr>
-				<td><a href="Pagina 4.html"><p>Preguntas antes de comprar un dron</p></a></td>
-				<td><a href="Pagina 4.html"><img src="Imagenes/Tabla/dron4.gif"></a></td>
-			</tr>
-			<tr>
-				<td><a href="Pagina 5.html"><p>El futuro de los drones</p></a></td>
-				<td><a href="Pagina 5.html"><img src="Imagenes/Tabla/dron5.gif"></a></td>
-			</tr>
-		</table>
-	</div>
-	<div class="footer">
-		<p>Diseñado por: Héctor Mauricio Flores Martínez (1897759)</p>
-	</div>
-</div>
+	<header>
+		<h2><a href="index.html">HMdev</a></h2>
+		<nav class="desktop">
+			<a href="page1.html">
+				<h3>Significado</h3>
+			</a>
+			<a href="page2.html">
+				<h3>Historia</h3>
+			</a>
+			<a href="page3.html">
+				<h3>Ventajas</h3>
+			</a>
+			<a href="page4.html">
+				<h3>Preguntas</h3>
+			</a>
+			<a href="page5.html">
+				<h3>Futuro</h3>
+			</a>
+		</nav>
+		<nav class="mobile">
+			<button>Menú</button>
+			<section class="dropdown">
+				<a href="page1.html">
+					<h3>Significado</h3>
+				</a>
+				<a href="page2.html">
+					<h3>Historia</h3>
+				</a>
+				<a href="page3.html">
+					<h3>Ventajas</h3>
+				</a>
+				<a href="page4.html">
+					<h3>Preguntas</h3>
+				</a>
+				<a href="page5.html">
+					<h3>Futuro</h3>
+				</a>
+			</section>
+		</nav>
+	</header>
+	<main class="grid-1 index">
+		<section>
+			<a href="page1.html">
+				<p>Significado de los drones, para que sirven, usos y aplicaciónes más comunes</p>
+				<img src="img/home/dron-1.jpg" loading="lazy" alt="dron">
+			</a>
+		</section>
+		<section>
+			<a href="page2.html">
+				<p>Historia de los drones desde el siglo XIX hasta el 2016: evolución y surgimiento del drone moderno </p>
+				<img src="img/home/dron-2.jpg" loading="lazy" alt="dron">
+			</a>
+		</section>
+		<section>
+			<a href="page3.html">
+				<p>Ventajas y desventajas de los drones</p>
+				<img src="img/home/dron-3.jpg" loading="lazy" alt="dron">
+			</a>
+		</section>
+		<section>
+			<a href="page4.html">
+				<p>Preguntas antes de comprar un dron</p>
+				<img src="img/home/dron-4.jpg" loading="lazy" alt="dron">
+			</a>
+		</section>
+		<section class="column-2">
+			<a href="page5.html">
+				<p>El futuro de los drones</p>
+				<img src="img/home/dron-5.jpg" loading="lazy" alt="dron">
+			</a>
+		</section>
+	</main>
+	<footer>
+		<p>Diseñado por HMdev (Hector Mtz)</p>
+	</footer>
 </body>
+
 </html>

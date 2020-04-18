@@ -1,0 +1,252 @@
+@import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates&display=swap');
+* {
+	margin: 0;
+	padding: 0;
+	box-sizing: border-box;
+	font-family: 'Montserrat Alternates', sans-serif;
+}
+:root {
+	--primary: #291526;
+	--primary-light: #75426E;
+	--secondary: #13291B;
+	--back: #e7dde5;
+}
+body {
+	background-color: #eee;
+	background-image: linear-gradient(335deg, var(--back) 23px, transparent 23px),
+	linear-gradient(155deg, var(--back) 23px, transparent 23px),
+	linear-gradient(335deg, var(--back) 23px, transparent 23px),
+	linear-gradient(155deg, var(--back) 23px, transparent 23px);
+	background-size: 58px 58px;
+	background-position: 0px 2px, 4px 35px, 29px 31px, 34px 6px;
+}
+img { width: 100%; }
+a { 
+	text-decoration: none;
+	color: inherit;
+
+}
+header, footer {
+	height: 32px;
+	background: var(--primary-light);
+	color: #fff;
+	display: grid;
+	grid-template-columns: 5% 10px 1fr 5%;
+}
+header > h2 {
+	grid-column: 2/3;
+	align-self: center;
+}
+header nav {
+	grid-column: 3/4;
+	width: 50%;
+	min-width: 480px;
+	justify-self: right;
+	align-self: center;
+	display: flex;
+	justify-content: space-between;
+}
+header nav h3 {
+	transition: all 500ms ease;
+}
+header nav h3:hover,
+header nav .active {
+	opacity: 0.5;
+}
+
+.grid-1 {
+	width: 90%;
+	margin: 10px auto;
+	display: grid;
+	grid-template-columns: 1fr 1fr;
+	gap: 10px;
+}
+.grid-1 .title {
+	height: 45px;
+	background: #fff;
+	grid-column: 1/-1;
+}
+.grid-1 section {
+	height: 300px;
+	padding: 10px;
+	background: #000;
+	border-radius: 10px;
+	position: relative;
+	box-shadow: 0px 0px 20px #2b2b2b;
+}
+.grid-1 section img {
+	object-fit: cover;
+	position: absolute;
+	top: 0;
+	left: 0;
+	right: 0;
+	bottom: 0;
+	width: 100%;
+	height: 100%;
+	opacity: 0.7;
+	border-radius: 10px;
+	transition: all 200ms linear;
+}
+.grid-1 section img:hover {
+	filter: blur(3px);
+}
+.grid-1 section p {
+	position: absolute;
+	top: 80%;
+	left: 1%;
+	right: 1%;
+	text-align: center;
+	color: #fff;
+	font-size: 1.2em;
+	z-index: 1;
+}
+.column-2 {
+	grid-column: 1/-1;
+}
+
+footer {
+	grid-template-columns: 5% 1fr 5%;
+}
+footer p {
+	grid-column: 2/3;
+	align-self: center;
+}
+
+.main {
+	width: 90%;
+	margin: 10px auto;
+	padding: 10px;
+	text-align: justify;
+}
+.main p {
+	margin: 5px 0px;
+}
+.main ol img {
+	width: 200px;
+}
+
+.table {
+	width: 100%;
+	overflow-x: auto;
+}
+#customers {
+    font-family: "Trebuchet MS", Arial, Helvetica, sans-serif;
+    border-collapse: collapse;
+    font-style: normal;
+    margin: 10px;
+	font-size: 14px;
+}
+
+#customers td, #customers th {
+    border: 1px solid #ddd;
+    padding: 8px;
+}
+
+#customers tr:nth-child(even){background-color: #f2f2f2;}
+#customers tr:nth-child(odd){background-color: #e2e2e2;}
+
+#customers tr:hover {background-color: #ddd;}
+
+#customers th {
+    padding-top: 12px;
+    padding-bottom: 12px;
+    text-align: left;
+    background-color: var(--primary-light);
+    color: white;
+}
+
+.left, 
+.right {
+	width: 350px;
+	margin: 0px 10px;
+}
+.left {
+	float:left;
+}
+.right {
+	float:right;
+}
+.videoright {
+	float: right;
+	width:560px;
+	height:315px; 
+	margin:10px;
+}
+.videoleft {
+	float: left;
+	width:560px;
+	height:315px; 
+	margin:10px;
+}
+.center {
+	width: 500px;
+	display: block;
+	margin: 10px auto;
+}
+.mobile, .dropdown {
+	display: none;
+}
+.dropdown {
+	position: absolute;
+	top: 100%;
+	right: 0;
+	background: var(--primary);
+	z-index: 3;
+}
+.dropdown h3 {
+	padding: 15px;
+}
+@keyframes dropdown {
+	from {
+		transform: translateY(100px);
+		opacity: 0;
+	}
+	to {
+		transform: translateY(0px);
+		opacity: 1;
+	}
+}
+
+@media screen and (max-width: 1136px) {
+	.index {
+		font-size: 0.7em;
+	}
+}
+@media screen and (max-width: 660px) {
+	.grid-1 {
+		grid-template-columns: 1fr;
+	}
+	.desktop, .dropdown {
+		display: none;
+	}
+	.videoright, .videoleft {
+		width:100%;
+		height:200px; 
+	}
+	.center, .left, .right {
+		width: 100%;
+	}
+	.mobile {
+		width: 50%;
+		min-width: 20px;
+		display: flex;
+		justify-content: flex-end;
+		position: relative;
+	}
+	.mobile button {
+		background: transparent;
+		border: transparent;
+		color: #fff;
+		outline: none;
+		font-size: 1.2em;
+		cursor: pointer;
+		transition: all 500ms ease;
+	}
+	.mobile button:focus + .dropdown,
+	.dropdown:hover {
+		display: block;
+		animation: dropdown 0.5s ease forwards;
+	}
+	
+
+}
