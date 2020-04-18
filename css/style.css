@@ -158,12 +158,13 @@ footer p {
 .left, 
 .right {
 	width: 350px;
-	margin: 0px 10px;
 }
 .left {
+	margin-right: 10px;
 	float:left;
 }
 .right {
+	margin-left: 10px;
 	float:right;
 }
 .videoright {
@@ -222,9 +223,14 @@ footer p {
 	.videoright, .videoleft {
 		width:100%;
 		height:200px; 
+		margin: 0;
 	}
 	.center, .left, .right {
+		margin: 0;
 		width: 100%;
+	}
+	.main ol img {
+		margin-left: 10px;
 	}
 	.mobile {
 		width: 50%;
